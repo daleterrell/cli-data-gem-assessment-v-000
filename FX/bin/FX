@@ -1,11 +1,12 @@
-require "FX"
+#!/usr/bin/env ruby
+require_relative ".lib/FX"
 
 ct = FX::Instruct.new
 ct.initial_instruction
 
 FX::CLI.new.call
 
-15 HORROR FILMS WITH PRACTICAL EFFECTS
+15 BEST HORROR FILMS WITH PRACTICAL EFFECTS
 
 This is a list of the 15 greatest uses of practical effects in horror films.  CGI is for posers.
 

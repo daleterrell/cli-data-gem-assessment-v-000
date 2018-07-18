@@ -1,5 +1,4 @@
 class FX::CLI 
-require relative "./lib/FX/version"
 
   def call
     puts "Movies that were made with practical FX, no CGI!!."
@@ -17,5 +16,6 @@ require relative "./lib/FX/version"
   
   def menu
     puts "Which movie would you like to know more about?"
+    info = gets.strip
   end
 end
