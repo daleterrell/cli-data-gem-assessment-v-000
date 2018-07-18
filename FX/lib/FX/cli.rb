@@ -7,13 +7,13 @@ require relative "./lib/FX/version"
     menu
   end
   
-#  def artist 
-#    input = nil 
-#    while input != "exit"
-#    puts "Enter the number of the movie you want to know more about."
-#    input = gets.strip
-#    case input
-#  end
+  def menu
+    input = nil 
+    while input != "exit"
+    puts "Enter the number of the movie you want to know more about."
+    input = gets.strip
+    case input
+  end
   
   def menu
     puts "Which movie would you like to know more about?"
