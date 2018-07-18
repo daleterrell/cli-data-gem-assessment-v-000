@@ -10,3 +10,6 @@ def artist
   puts "Enter the FX artist you would like to see work by."
   input = gets.strip
   case input
+end
+
+curl http://imdb.org >> fixtures/site/lessons.html

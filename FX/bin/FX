@@ -1,0 +1,4 @@
+require "FX"
+
+ct = FX::Instruct.new
+ct.initial_instruction
