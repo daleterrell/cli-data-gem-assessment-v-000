@@ -1,13 +1,13 @@
 require "FX/version"
 
 module FX
-  puts "Movies that this master has been involved with."
+  puts "Movies that were made with practical FX, no CGI!!."
 end
 
 def artist 
   input = nil 
   while input != "exit"
-  puts "Enter the FX artist you would like to see work by."
+  puts "Enter the number of the movie you want to know more about."
   input = gets.strip
   case input
 end
