@@ -2,3 +2,27 @@ require "FX"
 
 ct = FX::Instruct.new
 ct.initial_instruction
+
+FX::CLI.new.call
+
+15 HORROR FILMS WITH PRACTICAL EFFECTS
+
+This is a list of the 15 greatest uses of practical effects in horror films.  CGI is for posers.
+
+Which movie do you want more information about?
+
+15. The Cabin in the Woods
+14. Slither
+13. The Conjuring 2
+12. The Fly
+11. Videodrome
+10. Alien
+9. The Descent
+8. Reanimator
+7. Hellraiser
+6. Dead Alive
+5. An American Werewolf in London
+4. The Autopsy of Jane Doe 
+3. Eraserhead
+2. Day of the Dead
+1. The Thing

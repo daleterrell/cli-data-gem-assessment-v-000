@@ -1,4 +1,4 @@
-require "FX/version"
-require "Nokogiri"
-module FX
+require_relative "FX/version"
+require_relative "Nokogiri"
+
 
