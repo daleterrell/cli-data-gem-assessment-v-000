@@ -1,5 +1,5 @@
-require_relative "./FX/version"
-require_relative "./FX/cli"
+require_relative "./bin/FX/version"
+require_relative "./bin/FX/cli"
 
 
 

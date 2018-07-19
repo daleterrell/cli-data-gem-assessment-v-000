@@ -1,10 +1,11 @@
 #!/usr/bin/env ruby
 require_relative ".lib/FX"
+require_relative '../config/environment'
 
 ct = FX::Instruct.new
 ct.initial_instruction
 
-FX::CLI.new.call
+FX.new.call
 
 15 BEST HORROR FILMS WITH PRACTICAL EFFECTS
 
@@ -27,3 +28,4 @@ Which movie do you want more information about?
 3. Eraserhead
 2. Day of the Dead
 1. The Thing
+
