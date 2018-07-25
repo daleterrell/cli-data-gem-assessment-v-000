@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "Practical"
+require "practical"
 
 puts "The best 15 horror films made with practical effects!"
 

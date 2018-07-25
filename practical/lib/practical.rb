@@ -1,3 +1,4 @@
+require "nokogiri"
 require "practical/version"
 
 module Practical
