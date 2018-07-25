@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+puts "The best 15 horror films made with practical effects!"
+
+practical::CLI.new.call
