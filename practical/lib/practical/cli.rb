@@ -15,7 +15,7 @@ class Practical::CLI
     while input != "exit"
       puts "Enter the number of the movie you'd like to know more about."
       input = gets.strip.downcase
-      case input
+      if input
       
       when "list"
         movies
