@@ -1,5 +1,5 @@
 class Practical::Practical
-  attr_accessor :name, :director
+  attr_accessor :name
   
   def self.scrape_movies
     movies = []
@@ -7,16 +7,21 @@ class Practical::Practical
     movies << self.scrape_screenrant
     movies << self.scrape_top10hq
     
-    movie_1 = self.new 
-    movie_1.name = "Some movie"
-    movie_1.director = "Some director"
     
-    movie_2 = self.new 
-    movie_2.name = "Some movie"
-    movie_2.director = "Some director"
     
-    [movie_1, movie_2]
+    [movie]
     
     def self.scrape screenrant
       doc = Nokogiri::HTML (open(https://screenrant.com/horror-movies-used-practical-effects-no-cgi/))
-  end
+    end
+    
+    movie = self.new 
+    movie.name = doc.search("h3.main-title")text
+    
+    def self.scrape scrape_top10hq
+      doc = Nokogiri::HTML (open(https://www.top10hq.com/top-10-best-make-special-effects-horror-movies/))
+    end
+    
+    movie = self.new
+    movie.name = doc.search("h2.item-title")text
+    
