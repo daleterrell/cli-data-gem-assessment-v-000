@@ -25,3 +25,5 @@ class Practical::Practical
     movie = self.new
     movie.name = doc.search("h2.item-title")text
     
+  end
+end
