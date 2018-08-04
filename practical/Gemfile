@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+# git_source(:github) {|repo_name| "https://github.com/#{practical}" }
 
 # Specify your gem's dependencies in practical.gemspec
 gemspec
+gem 'pry'
+gem 'nokogiri', '1.8.3'
+gem 'colorize', '0.8.1'
