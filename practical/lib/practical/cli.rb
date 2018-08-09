@@ -39,7 +39,7 @@ class Practical::CLI
       end
       
       def movies
-        @movies = Practical::Pracdtical.movie
+        @movies = Practical::Practical.movie
         @movies.each.with_index(1) do |movie, i|
           puts "#{i}. #{movie.name} - #{movie.director}"
     end

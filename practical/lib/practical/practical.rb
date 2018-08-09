@@ -18,7 +18,7 @@ class Practical::Practical
     movie = self.new 
     movie.name = doc.search("h3.main-title")text
     
-    def self.scrape scrape_top10hq
+    def self.scrape scrape top10hq
       doc = Nokogiri::HTML (open(https://www.top10hq.com/top-10-best-make-special-effects-horror-movies/))
     end
     
