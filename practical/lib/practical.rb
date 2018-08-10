@@ -1,10 +1,11 @@
-require_relative "./practical/version"
-require_relative "./practical/cli"
+require "practical/version"
 
-#require 'Nokogiri'
-#require 'pry'
-#require 'open-uri'
+module Practical
+  require_relative "./practical/version"
+  require_relative "./practical/cli"
 
+  require 'Nokogiri'
+  require 'pry'
+  require 'open-uri'
 
-
-
+end
