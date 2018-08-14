@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
-#require 'bundler/setup'
-#require_relative '../practical'
 
-practical.new.call
+
+Practical::CLI.new.call
+
+
 
