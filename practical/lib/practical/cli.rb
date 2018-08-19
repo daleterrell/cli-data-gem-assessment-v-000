@@ -4,12 +4,6 @@ class Practical::CLI
     movies
     menu
     goodbye
- class Practical::CLI
-
-  def call
-    movies
-    menu
-    goodbye
   end
   
   def movies
