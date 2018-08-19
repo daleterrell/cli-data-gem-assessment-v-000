@@ -1,8 +1,4 @@
 #!/usr/bin/env ruby
 
 
-
 Practical::CLI.new.call
-
-
-
